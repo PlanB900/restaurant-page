@@ -1,0 +1,123 @@
+body {
+    margin:0;
+    background-image:url("./balmora.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+#header {
+    background-color:rgb(250,235,215,0.4);
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content:flex-start;
+    padding:20px;
+    font-size:20px;
+}
+
+#headerTitle {
+    margin-right:auto;
+    font-family: 'sans-serif';
+    font-size:40px;
+}
+
+.headerLink {
+    display:flex;
+    align-items:center;
+    padding:20px;
+}
+
+.headerLink:hover {
+    cursor:pointer;
+    background-color:rgb(186, 187, 170);
+}
+
+#footer {
+    display:flex;
+    width:100%;
+    justify-content:center;
+    background-color:antiquewhite;
+    padding:6px;
+    margin-top:auto;
+}
+
+#content {
+    display:flex;
+    flex-flow:column nowrap;
+    min-height:100vh;
+}
+
+#container {
+    margin-top:200px;
+    display:flex;
+    justify-content:center;
+}
+
+#block1 {
+    display:flex;
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#block1Text {
+    background-color:rgb(250,235,215,0.5);
+    display:flex;
+}
+
+#menu {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: baseline;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    gap:180px;
+    background-color:rgb(250,235,215,0.5);
+}
+
+.foodCard {
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+    align-items:center;
+    width:300px;
+    gap:30px;
+    margin:50px 0px;
+}
+
+.foodCardName {
+    font-size:30px;
+}
+
+.foodCardImg {
+    width:100px;
+    height:100px;
+}
+
+.ratMeat {
+    transform: rotate(90deg);
+}
+
+.foodCardDesc {
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:center;
+    align-items:center;
+}
+
+.contact {
+    display:flex;
+    flex-flow:row nowrap;
+    padding:10px;
+}
+
+.contactInfo {
+    width:300px;
+    background-color:rgb(250,235,215,0.5);
+}
+
+.map {
+    width:600px;
+    height:300px;
+}
